@@ -16,19 +16,16 @@ const heading_2_1 = "Introduction"
 const section_text_1 = `Welcome to the official website of Antonis Vasileiadis, a gifted musician, composer, and songwriter from Greece. With a passion for creating captivating music and years of expertise, Antonis offers a harmonious blend of creativity and professionalism. Whether you’re seeking original compositions, top-notch music production, or expert instruction, you’re in the right place.​`;
 
 const heading_2_2 = "About"
-const section_text_2 = `Antonis Vasileiadis is a versatile and accomplished musician based in Greece, known for his exceptional talent and dedication to the art of music. A graduate of the prestigious Music Science and Arts department at the University of Macedonia, he specializes in percussion instruments and has earned recognition for his mastery and innovation in this field.
-
-As a freelance artist, Antonis provides comprehensive music services, covering every stage of creation from composition to production. His all-in-one approach ensures a seamless and personalized experience for artists, filmmakers, and businesses seeking professional soundscapes that resonate.
-
-Beyond his creative endeavors, Antonis is also a passionate music instructor, sharing his knowledge and inspiring the next generation of musicians. Whether crafting original scores, producing music, or mentoring aspiring artists, Antonis’s work reflects his unwavering commitment to excellence and his deep love for music.
-
-Explore the world of Antonis Vasileiadis and discover how his artistry can bring your vision to life.`
+const section_text_2 = `Antonis Vasileiadis is a versatile and accomplished musician based in Greece, known for his exceptional talent and dedication to the art of music. A graduate of the prestigious Music Science and Arts department at the University of Macedonia, he specializes in percussion instruments and has earned recognition for his mastery and innovation in this field.<br><br>
+As a freelance artist, Antonis provides comprehensive music services, covering every stage of creation from composition to production. His all-in-one approach ensures a seamless and personalized experience for artists, filmmakers, and businesses seeking professional soundscapes that resonate.<br><br>
+Beyond his creative endeavors, Antonis is also a passionate music instructor, sharing his knowledge and inspiring the next generation of musicians. Whether crafting original scores, producing music, or mentoring aspiring artists, Antonis’s work reflects his unwavering commitment to excellence and his deep love for music.<br><br>
+Explore the world of Antonis Vasileiadis and discover how his artistry can bring your vision to life.`;
 
 const heading_2_3 = "More"
 const section_text_3 = ""
 
 const heading_2_4 = "Newsletter"
-const section_text_4 = "We’d love to keep you updated with all the latest news and exciting developments!"
+const section_text_4 = "Stay tuned for more harmonious vibes and creative journeys!"
 
 const footer_copyright = "Antonis Vasileiadis - 2024 All rights reserved. v2024.11.21.1"   
 
@@ -76,7 +73,7 @@ function updatePageContent() {
     //document.getElementById('heading-2-1').textContent = heading_2_1;
     document.getElementById('section-text-1').textContent = section_text_1;
     document.getElementById('heading-2-2').textContent = heading_2_2;
-    document.getElementById('section-text-2').textContent = section_text_2;
+    document.getElementById('section-text-2').innerHTML = section_text_2;
     document.getElementById('heading-2-3').textContent = heading_2_3;
     //document.getElementById('section-text-3').textContent = section_text_3;
     document.getElementById('heading-2-4').textContent = heading_2_4;

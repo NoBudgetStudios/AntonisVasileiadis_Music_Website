@@ -54,6 +54,8 @@ h2 {
 p {
     text-align: justify;
     margin: 2rem 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
 }
 
 nav {
